@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/github.io/cryptofilesafe/static/js/main.2fca7df3.chunk.js",
-    "main.js.map": "/github.io/cryptofilesafe/static/js/main.2fca7df3.chunk.js.map",
-    "runtime-main.js": "/github.io/cryptofilesafe/static/js/runtime-main.6b905840.js",
-    "runtime-main.js.map": "/github.io/cryptofilesafe/static/js/runtime-main.6b905840.js.map",
-    "static/js/2.781070ef.chunk.js": "/github.io/cryptofilesafe/static/js/2.781070ef.chunk.js",
-    "static/js/2.781070ef.chunk.js.map": "/github.io/cryptofilesafe/static/js/2.781070ef.chunk.js.map",
-    "static/js/3.4d2e3042.chunk.js": "/github.io/cryptofilesafe/static/js/3.4d2e3042.chunk.js",
-    "static/js/3.4d2e3042.chunk.js.map": "/github.io/cryptofilesafe/static/js/3.4d2e3042.chunk.js.map",
-    "index.html": "/github.io/cryptofilesafe/index.html",
-    "static/js/2.781070ef.chunk.js.LICENSE.txt": "/github.io/cryptofilesafe/static/js/2.781070ef.chunk.js.LICENSE.txt"
+    "main.js": "/cryptofilesafe/static/js/main.2fca7df3.chunk.js",
+    "main.js.map": "/cryptofilesafe/static/js/main.2fca7df3.chunk.js.map",
+    "runtime-main.js": "/cryptofilesafe/static/js/runtime-main.53cfcbd1.js",
+    "runtime-main.js.map": "/cryptofilesafe/static/js/runtime-main.53cfcbd1.js.map",
+    "static/js/2.781070ef.chunk.js": "/cryptofilesafe/static/js/2.781070ef.chunk.js",
+    "static/js/2.781070ef.chunk.js.map": "/cryptofilesafe/static/js/2.781070ef.chunk.js.map",
+    "static/js/3.4d2e3042.chunk.js": "/cryptofilesafe/static/js/3.4d2e3042.chunk.js",
+    "static/js/3.4d2e3042.chunk.js.map": "/cryptofilesafe/static/js/3.4d2e3042.chunk.js.map",
+    "index.html": "/cryptofilesafe/index.html",
+    "static/js/2.781070ef.chunk.js.LICENSE.txt": "/cryptofilesafe/static/js/2.781070ef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b905840.js",
+    "static/js/runtime-main.53cfcbd1.js",
     "static/js/2.781070ef.chunk.js",
     "static/js/main.2fca7df3.chunk.js"
   ]
