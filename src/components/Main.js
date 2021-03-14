@@ -107,7 +107,7 @@ export default class Main extends Component {
         <div className="d-flex justify-content-center ">
           <div class="col-sm-7 mt-5 d-flex justify-content-center flex-column">
             <label for="secretkey" class="form-label">
-              Enter secret key (Keep it secret and don't forget 🤫){" "}
+              Enter secret key (Keep it secret and don't forget){" "}
             </label>
             <input
               type="text"
