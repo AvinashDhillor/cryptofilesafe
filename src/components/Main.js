@@ -104,7 +104,7 @@ export default class Main extends Component {
             </a>
           </div>
         </nav>
-        <div className="d-flex justify-content-center ">
+        <div className="d-flex justify-content-center container my-3">
           <div class="col-sm-7 mt-5 d-flex justify-content-center flex-column">
             <label for="secretkey" class="form-label">
               Enter secret key (Keep it secret and don't forget){" "}
