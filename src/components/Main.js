@@ -12,6 +12,7 @@ export default class Main extends Component {
     inputText: "",
     resultText: "",
     fileName: null,
+    copyText: "Copy",
   };
 
   validateSecretString = (secretString) => {
@@ -51,6 +52,7 @@ export default class Main extends Component {
     let ciphertext = iv.toString(outputEncoding) + ":" + ciphered;
     this.setState(() => ({
       resultText: ciphertext,
+      copyText: "Copy",
     }));
   };
 
@@ -72,10 +74,12 @@ export default class Main extends Component {
       deciphered += decipher.final(inputEncoding);
       this.setState(() => ({
         resultText: deciphered,
+        copyText: "Copy",
       }));
     } catch (error) {
       this.setState(() => ({
         resultText: "Sorry, either cipher text or key is invalid!",
+        copyText: "Copy",
       }));
     }
   };
@@ -91,6 +95,20 @@ export default class Main extends Component {
     element.download = `${this.state.fileName}.txt`;
     document.body.appendChild(element);
     element.click();
+  };
+
+  copyToClipBoard = () => {
+    let copyTextElement = document.querySelector("#resultTextElement");
+    let inputElement = document.createElement("textarea");
+    inputElement.value = copyTextElement.textContent;
+    document.body.appendChild(inputElement);
+    inputElement.select();
+    inputElement.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+    this.setState(() => ({
+      copyText: "Copied!",
+    }));
+    inputElement.remove();
   };
 
   render() {
@@ -161,7 +179,16 @@ export default class Main extends Component {
             </div>
 
             <div className="my-3 p-4" style={{ wordBreak: "break-all" }}>
-              {this.state.resultText}
+              <span id="resultTextElement">{this.state.resultText}</span>
+              {this.state.resultText.length !== 0 && (
+                <button
+                  type="button"
+                  onClick={this.copyToClipBoard}
+                  class="btn btn-primary btn-sm mx-2"
+                >
+                  {this.state.copyText}
+                </button>
+              )}
             </div>
 
             <div class="input-group">
