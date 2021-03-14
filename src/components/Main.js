@@ -121,7 +121,7 @@ export default class Main extends Component {
             </div>
 
             <label for="input text" class="form-label">
-              Enter text to encrypt
+              Enter data to encrypt/decrypt
             </label>
             <input
               type="text"
