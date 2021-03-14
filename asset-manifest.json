@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/cryptofilesafe/static/js/main.4bd02912.chunk.js",
-    "main.js.map": "/cryptofilesafe/static/js/main.4bd02912.chunk.js.map",
+    "main.js": "/cryptofilesafe/static/js/main.7318928d.chunk.js",
+    "main.js.map": "/cryptofilesafe/static/js/main.7318928d.chunk.js.map",
     "runtime-main.js": "/cryptofilesafe/static/js/runtime-main.53cfcbd1.js",
     "runtime-main.js.map": "/cryptofilesafe/static/js/runtime-main.53cfcbd1.js.map",
     "static/js/2.781070ef.chunk.js": "/cryptofilesafe/static/js/2.781070ef.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.53cfcbd1.js",
     "static/js/2.781070ef.chunk.js",
-    "static/js/main.4bd02912.chunk.js"
+    "static/js/main.7318928d.chunk.js"
   ]
 }
