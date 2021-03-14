@@ -160,7 +160,7 @@ export default class Main extends Component {
               </label>
             </div>
 
-            <div className="my-3 p-2" style={{ wordBreak: "break-all" }}>
+            <div className="my-3 p-4" style={{ wordBreak: "break-all" }}>
               {this.state.resultText}
             </div>
 
