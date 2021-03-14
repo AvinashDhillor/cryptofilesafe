@@ -116,7 +116,7 @@ export default class Main extends Component {
               placeholder="< 32 length"
               onChange={this.handleSecretKey}
             />
-            <div class="form-text my-2" style={{ wordWrap: "break-word" }}>
+            <div class="form-text my-2 p-2" style={{ wordBreak: "break-all" }}>
               {this.state.secretKey}
             </div>
 
@@ -130,7 +130,7 @@ export default class Main extends Component {
               placeholder="*****"
               onChange={this.handleInputText}
             />
-            <div class="form-text my-2" style={{ wordWrap: "break-word" }}>
+            <div class="form-text my-2 p-2" style={{ wordBreak: "break-all" }}>
               {this.state.inputText}
             </div>
 
@@ -160,7 +160,7 @@ export default class Main extends Component {
               </label>
             </div>
 
-            <div className="my-3 text-wrap" style={{ wordWrap: "break-word" }}>
+            <div className="my-3 p-2" style={{ wordBreak: "break-all" }}>
               {this.state.resultText}
             </div>
 
